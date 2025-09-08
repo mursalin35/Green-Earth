@@ -1,39 +1,4 @@
-
-
-// const caragori = () => {
-//     fetch("https://openapi.programming-hero.com/api/categories") // promise of responsive
-//         .then(res = res => res.json()) // promise of json data
-//         // .then(json => console.log(json))
-//         .then(json => displayC(json));
-// };
-
-
-// const displayC = (dCatagori) => {
-//     // console.log(dCatagori);-----------------------
-
-//     // 1. get the container & empty
-//     const categoriContainer = document.getElementById("catarori-container")
-//     categoriContainer.innerHTML = '';
-
-//     // 2. get into every dCatagori
-//     for (let catarori of dCatagori) {
-//         console.log(caragori);
-
-//         //         3. create Element 
-//         const pTag = document.createElement("p");
-//         pTag.innerHTML = ` <p> ${caragori.categories} </p> `
-
-//         //         4. append into container
-//         categoriContainer.append()
-
-//     };
-
-// }
-
-
-// caragori();
-
-
+// Categori container ------------------------------------------------------------------------------------->
 const cataroriContainer = document.getElementById('cataroriContainer')
 
 
@@ -79,6 +44,7 @@ const loadCategori = async () => {
 loadCategori()
 */
 
+// Categori container ------------------------------------------------------------------------------------->
 
 
 
