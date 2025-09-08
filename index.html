@@ -23,7 +23,7 @@
 </head>
 
 <body class="bg-[#f1fff7] font-[Inter] px-15">
-    <!-- Header Section  -->
+    <!-- Header Section ----------------------------------------------------------------------------------------->
     <header class="-mx-15">
         <!-- navber -->
         <nav class="px-15 flex justify-between items-center h-18 bg-[#15803D] text-white ">
@@ -78,13 +78,13 @@
     </header>
 
     <main>
-        <!-- Card section  -->
+        <!-- Card container section ----------------------------------------------------------------------------->
         <section class="my-15 ">
             <h1 class="text-center font-semibold text-[1.2rem]">Choose Your Trees</h1>
 
             <div class="mt-5 flex gap-5 justify-between">
-
-                <div class="w-[300px] bg-red-100">
+                <!-- Categories section  -->
+                <div class="w-[300px] bg-white">
                     <h2>Categories</h2>
                     <h2>Categories</h2>
                     <h2>Categories</h2>
@@ -92,8 +92,8 @@
                     <h2>Categories</h2>
                     <h2>Categories</h2>
                 </div>
-                <!-- brack -------------------------------------------------------------------------------->
 
+                <!-- Card container -->
                 <div class="grid grid-cols-3 gap-5">
 
                     <!-- max-w-sm -->
@@ -270,18 +270,38 @@
                 </div>
 
 
-                <!-- brack -------------------------------------------------------------------------------->
 
+                <!-- Total card container -->
+                <div class="w-[300px] bg-white rounded-xl shadow p-3">
+                    <!-- hading -->
+                    <h2 class="font-semibold mb-2">Your Cart</h2>
 
-                <div class="w-[300px] bg-red-100">
-                    <h2>Your Cart</h2>
+                    <!-- Add a Card No  -->
+                    <div
+                        class="bg-[#F0FDF4] flex justify-between text-xs text-[0.7rem] p-1.5 rounded-md border-[0.5px] border-gray-100 items-center">
+                        <div>
+                            <h4 class="font-semibold">Mango Tree</h4>
+                            <p class="mt-1 text-gray-400">৳<span>500</span> × <span>1</span></p>
+                        </div>
+                        <!-- <div class="pr-2 text-lg text-gray-500">×</div> -->
+                        <button class="pr-2 text-lg text-gray-500 hover:cursor-pointer">×</button>
+                    </div>
+
+                    <!-- total underline  -->
+                    <div class="bg-gray-300 h-[1px] mt-1.5"></div>
+                    <!-- Total taka  -->
+                    <div class="flex justify-between text-sm font-medium mt-1.5">
+                        <p>Total:</p>
+                        <p>৳<span>1000</span></p>
+                    </div>
+
                 </div>
 
             </div>
 
         </section>
 
-        <!-- Explore section  -->
+        <!-- Explore section ------------------------------------------------------------------------------------->
         <section class="my-18 ">
             <h2 class="text-center font-semibold text-[1.3rem]">About the Campaign</h2>
 
@@ -308,7 +328,7 @@
             </div>
         </section>
 
-        <!-- Impact section  -->
+        <!-- Impact section --------------------------------------------------------------------------------------->
         <section class="bg-[#CFF0DC] py-15 -mx-15">
             <div class="px-15 text-center">
                 <h2 class="font-semibold text-[1.3rem] ">Our Impact</h2>
@@ -337,7 +357,7 @@
             </div>
         </section>
 
-        <!-- Donate section  -->
+        <!-- Donate section --------------------------------------------------------------------------------------->
         <section class="bg-[#166534] py-18 -mx-15 ">
             <h2 class="text-center text-white font-semibold text-[1.2rem]">Plant a Tree Today</h2>
 
@@ -360,7 +380,7 @@
         </section>
     </main>
 
-    <!-- footer section  -->
+    <!-- footer section ------------------------------------------------------------------------------------------>
     <footer class=" bg-[#14532D] -mx-15 ">
         <p class="py-5 text-sm  text-white text-center font-light">&copy; 2025 Green Earth by M.S Mursalin</p>
     </footer>
