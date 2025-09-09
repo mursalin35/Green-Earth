@@ -88,7 +88,7 @@ const displayCategories = (plants) => {
           </div>
 
           <div>
-            <button class="cursor-pointer font-bold text-lg md:text-sm text-gray-800 hover:text-green-700"
+            <button class="cursor-pointer underline font-bold text-lg md:text-sm text-gray-800 hover:text-green-700"
                   onclick="lodeTreeDetail(${plant.id})">${plant.name}
               </button>
                 <p class="opacity-70 mt-1 md:text-[0.7rem]">${plant.description}</p>
@@ -162,7 +162,7 @@ const displayAllCards = (plants) => {
           </div>
 
           <div>
-            <button class="cursor-pointer font-bold text-lg md:text-sm text-gray-800 hover:text-green-700"
+            <button class="cursor-pointer underline  font-bold text-lg md:text-sm text-gray-800 hover:text-green-700"
                   onclick="lodeTreeDetail(${plant.id})">${plant.name}
               </button>
                 <p class="opacity-70 mt-1 md:text-[0.7rem]">${plant.description}</p>
@@ -180,7 +180,7 @@ const displayAllCards = (plants) => {
           </div>
 
             <button  onclick="lodePrice('${plant.name}', ${plant.price}), popup()" 
-              class="btn w-full md:text-sm bg-green-600 hover:bg-green-700 text-white h-9 md:h-7 mt-5 md:mt-3 rounded-full transition text-base md:text-[0.7rem] font-semibold"> Add to Cart
+              class="btn w-full md:text-sm bg-green-600 hover:bg-green-700 text-white h-10 md:h-7 mt-5 md:mt-3 rounded-full transition text-base md:text-[0.7rem] font-semibold"> Add to Cart
             </button>
 
     </div>
