@@ -57,7 +57,7 @@ arrow();  // Print dot output
 
 # 5) Explain template literals in ES6. How are they different from string concatenation?
 
-### Template literals are a new feature written with a backtick (`). They let easily write variables, expressions, and even multi-line strings—without any hassle.
+### Template literals হলো জাভাস্ক্রিপ্টের একটি নতুন ফিচার যা ব্যাকটিক (`) দিয়ে লেখা হয়। এর মাধ্যমে খুব সহজে ভ্যারিয়েবল, এক্সপ্রেশন এবং একাধিক লাইনবিশিষ্ট স্ট্রিং লেখা যায় — কোনো ঝামেলা ছাড়াই।
 
 ```js
 const name = "Ashiqur";
@@ -65,4 +65,4 @@ const language = "JavaScript";
 const message = `Hi! My name is ${name} and I love coding in ${language}.`;
 console.log(message);
 ```
-<li>Any valid expression can be placed inside ${}</li>
+- Any valid expression can be placed inside ${}
