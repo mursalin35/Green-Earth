@@ -60,9 +60,9 @@ arrow();  // Print dot output
 ### Template literals হলো জাভাস্ক্রিপ্টের একটি নতুন ফিচার যা ব্যাকটিক (`) দিয়ে লেখা হয়। এর মাধ্যমে খুব সহজে ভ্যারিয়েবল, এক্সপ্রেশন এবং একাধিক লাইনবিশিষ্ট স্ট্রিং লেখা যায় — কোনো ঝামেলা ছাড়াই।
 
 ```js
-const name = "Ashiqur";
+const name = "Mursalin";
 const language = "JavaScript";
-const message = `Hi! My name is ${name} and I love coding in ${language}.`;
+const message = `what do you do ${name} come to see  ${language}.`;
 console.log(message);
 ```
 - Any valid expression can be placed inside ${}
